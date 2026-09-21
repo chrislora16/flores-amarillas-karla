@@ -1,0 +1,13 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Sin esto, recargar cualquier URL que no sea "/" da 404: la página es
+# de una sola ruta, así que todo se sirve desde index.html.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
