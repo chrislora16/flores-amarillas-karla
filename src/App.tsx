@@ -28,7 +28,7 @@ const MESSAGES = [
   'Una flor amarilla para una gran amiga.',
   'Gracias por los buenos momentos.',
   'Que tengas un bonito 21 de septiembre.',
-  'Esta flor no se marchita, así que técnicamente te durará bastante 😂🌼',
+  'Esta flor no se marchita, así que técnicamente te durará bastante 😂🌻',
 ]
 
 const BOUQUET: BouquetFlower[] = [
@@ -73,7 +73,7 @@ function KarlaIntro() {
           className="font-display text-[clamp(2.6rem,13vw,4rem)] font-semibold"
           style={{ color: K.ink }}
         >
-          <Typewriter text="Karla 🌼" speed={150} startDelay={400} onDone={() => advance(1, 650)} />
+          <Typewriter text="Karla 🌻" speed={150} startDelay={400} onDone={() => advance(1, 650)} />
         </h1>
 
         <div className="mt-6 flex min-h-[6.5rem] flex-col items-center gap-2">
@@ -106,7 +106,7 @@ function KarlaIntro() {
             className="anim-breathe mt-8 inline-flex min-h-[54px] items-center gap-2 rounded-full px-7 py-3.5 text-[0.92rem] font-medium shadow-lg transition-transform active:scale-[0.97]"
             style={{ background: `linear-gradient(180deg, ${K.yellow}, ${K.gold})`, color: '#4A3512' }}
           >
-            <span className="text-lg leading-none">🌼</span>
+            <span className="text-lg leading-none">🌻</span>
             Recibir mis flores
           </button>
         )}
@@ -217,7 +217,7 @@ function KarlaContent() {
             stagger={0.03}
           />
           <p className="mt-6 font-serif text-[0.7rem]" style={{ color: K.pinkDeep }}>
-            🌼
+            🌻
           </p>
         </div>
       </section>
@@ -229,7 +229,7 @@ function KarlaContent() {
             className="text-balance mx-auto max-w-md font-display text-[clamp(1.7rem,7.4vw,2.6rem)] font-semibold leading-[1.15]"
             style={{ color: K.ink }}
           >
-            Feliz día de las flores amarillas, Karla. 🌼
+            Feliz día de las flores amarillas, Karla. 🌻
           </p>
         </MaskReveal>
       </section>
@@ -263,7 +263,7 @@ function KarlaContent() {
       <section data-k-fade className="relative w-full px-6 pb-[12vh] pt-[6vh] text-center">
         <MiniBouquet flowers={BOUQUET} unit={72} className="mx-auto max-w-xs" />
         <p className="mt-4 font-display text-[clamp(1.4rem,5.6vw,1.9rem)] font-semibold" style={{ color: K.ink }}>
-          Para Karla 🌼
+          Para Karla 🌻
         </p>
         <p className="mt-2 font-serif text-[1rem] font-light italic" style={{ color: K.inkSoft }}>
           De parte de Cristopher.
@@ -277,7 +277,7 @@ function KarlaExperience() {
   const { opened } = useExperience()
 
   useEffect(() => {
-    document.title = 'Flores amarillas para Karla 🌼'
+    document.title = 'Flores amarillas para Karla 🌻'
   }, [])
 
   return (

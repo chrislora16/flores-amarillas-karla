@@ -1,4 +1,4 @@
-# 🌼 Flores amarillas para Karla
+# 🌻 Flores amarillas para Karla
 
 Un pequeño detalle de Cristopher para Karla, por el **Día de las Flores
 Amarillas, 21 de septiembre**. No es una landing romántica — es un gesto
@@ -26,14 +26,14 @@ Otros comandos:
 
 ## El recorrido
 
-1. **Intro** — "Karla 🌼" escribiéndose, "Hoy es 21 de septiembre…", "Así
-   que aquí tienes tus flores amarillas." y el botón `🌼 Recibir mis flores`.
+1. **Intro** — "Karla 🌻" escribiéndose, "Hoy es 21 de septiembre…", "Así
+   que aquí tienes tus flores amarillas." y el botón `🌻 Recibir mis flores`.
 2. **Un pequeño detalle para ti** — flores entrando desde abajo y el porqué
    de las flores amarillas entre amigos.
-3. **Frase grande** — "Feliz día de las flores amarillas, Karla. 🌼"
+3. **Frase grande** — "Feliz día de las flores amarillas, Karla. 🌻"
 4. **Toca la flor** — una flor interactiva suelta una de 5 frases al azar
    cada vez que la toca.
-5. **Cierre** — un ramo pequeño, "Para Karla 🌼 · De parte de Cristopher."
+5. **Cierre** — un ramo pequeño, "Para Karla 🌻 · De parte de Cristopher."
 
 Paleta propia: crema, amarillo cálido, blanco y un toque de rosado pastel.
 Animación ligera (pensada para recorrerse en 30-45 segundos): sin música,
@@ -68,4 +68,4 @@ src/
 └── lib/                         contexto, gsap, utilidades
 ```
 
-Hecho con cariño. 🌼
+Hecho con cariño. 🌻
